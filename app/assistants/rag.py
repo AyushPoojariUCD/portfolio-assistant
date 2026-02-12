@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 from agents import Agent, Runner
-from app.agent.guardrails import is_disallowed_question, guardrail_response
+from app.assistants.guardrails import is_disallowed_question, guardrail_response
 
 # LOAD ENV VARIABLES
 load_dotenv()

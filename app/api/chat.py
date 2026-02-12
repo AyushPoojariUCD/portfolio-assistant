@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
-from app.agent.rag import chat_with_knowledge
+from app.assistants.rag import chat_with_knowledge
 
 router = APIRouter()
 
