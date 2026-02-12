@@ -1,0 +1,48 @@
+# Environment / Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# uv / pip
+.uv/
+pip-wheel-metadata/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Build / Distribution
+build/
+dist/
+*.egg-info/
+
+# Qdrant (local storage)
+qdrant_storage/
+
+# Temporary / Data files
+*.tmp
+*.cache
+*.sqlite3
