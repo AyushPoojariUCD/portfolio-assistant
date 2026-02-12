@@ -1,7 +1,7 @@
 [project]
-name = "trustpartners-assistant"
+name = "portfolio-assistant"
 version = "0.1.0"
-description = "Trust Partners Assistant"
+description = "Portfolio Assistant"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
